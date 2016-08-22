@@ -10,10 +10,9 @@ module.exports = function (wallaby) {
     env: {
       type: "node"
     },
+
     debug: true,
-    compilers: {
-      "**/*.ts?(x)": wallaby.compilers.typeScript({ module: "commonjs", jsx: "react" })
-    },
+   
     setup: function () {
 
       if (!global._testEnvInitilized) {
