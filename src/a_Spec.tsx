@@ -6,7 +6,7 @@ class Fixture extends React.Component {
     render () {
         return (
             <div>
-                <input id='checked' defaultChecked1 />
+                <input id='checked' defaultChecked />
                 <input id='not' defaultChecked={false} />
             </div>
         )
